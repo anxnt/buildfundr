@@ -33,8 +33,8 @@ function Header() {
       </div>
 
       <div style={{height:"50px", width:"400px", display:"flex", justifyContent:"space-evenly", alignItems:"center", }}>
-      <h1 style={{color:"#5F5F5F", fontWeight:"lighter",fontSize:"35px"}}> about</h1>
-      <h1 style={{cursor:"pointer", color:"#EBD070", fontWeight:"lighter", fontSize:"35px"}} onClick={()=> signIn()}> log in </h1> 
+      <h1 className={styles.menu} style={{color:"#5F5F5F", fontWeight:"lighter",fontSize:"35px"}}> about</h1>
+      <h1 className={styles.menu} style={{cursor:"pointer", color:"#EBD070", fontWeight:"lighter", fontSize:"35px"}} onClick={()=> signIn()}> log in </h1> 
       </div>
 
 

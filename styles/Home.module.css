@@ -234,6 +234,7 @@ width: 1204px;
   .grantc{
     margin: -284px !important;
   }
+
 }
 
 @media screen and (max-width: 350px) {
@@ -241,5 +242,18 @@ width: 1204px;
   .tagline{
       font-size: 20px  !important;
   }
+
+  .theheader{
+    height: 100px !important;
+
+  }
+
+  .thebody{
+    padding-bottom: 0px !important;
+    height: 185px !important;
+  }
   
+  .marqueecont{
+    height: 175px !important;
+  } 
 }

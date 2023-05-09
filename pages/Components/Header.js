@@ -10,7 +10,7 @@ function Header() {
   
   return (
   
-   <div style={{display:"flex", justifyContent:"space-between", alignItems:"center", height:"150px", width:"100vw",  fontFamily:"Manrope", fontWeight:"light"}}>
+   <div className={styles.theheader} style={{display:"flex", justifyContent:"space-between", alignItems:"center", height:"150px", width:"100vw",  fontFamily:"Manrope", fontWeight:"light"}}>
        <div style={{height:"50px", width:"400px", display:"flex", justifyContent:"center", alignItems:"center", color:"#ECECEC", fontSize:"25px", }}>
         <a href='/' > <h1 className={styles.logo}> buildfundr </h1></a>
        </div>
@@ -27,7 +27,7 @@ function Header() {
   else{
     return(
      
-      <div style={{display:"flex", justifyContent:"space-between", alignItems:"center", height:"150px", width:"100vw",  fontFamily:"Manrope", fontWeight:"light"}}>
+      <div className={styles.theheader} style={{display:"flex", justifyContent:"space-between", alignItems:"center", height:"150px", width:"100vw",  fontFamily:"Manrope", fontWeight:"light"}}>
       <div style={{height:"50px", width:"400px", display:"flex", justifyContent:"center", alignItems:"center", color:"#ECECEC", fontSize:"25px", }}>
       <a href='/' ><h1 className={styles.logo}> buildfundr</h1> </a> 
       </div>

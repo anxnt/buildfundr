@@ -13,7 +13,7 @@ function Bod() {
   return (
     <>
 
-      <div style={{ paddingBottom: "50px", width: "100vw", height: "300px", display: "flex", justifyContent: "space-evenly", alignItems: "center", flexDirection: "column" }}>
+      <div className={styles.thebody} style={{ paddingBottom: "50px", width: "100vw", height: "300px", display: "flex", justifyContent: "space-evenly", alignItems: "center", flexDirection: "column" }}>
         <div style={{ fontFamily: "Manrope", color: "#ECECEC" }}><h1 className={styles.tagline} style={{ fontSize: "80px",  fontWeight: "bold" }}> grants tailored just for you! 💰</h1>  </div>
 
 
@@ -41,7 +41,7 @@ function Bod() {
     return (
       <>
   
-        <div style={{ paddingBottom: "50px", width: "100vw", height: "300px", display: "flex", justifyContent: "space-evenly", alignItems: "center", flexDirection: "column" }}>
+        <div className={styles.thebody} style={{ paddingBottom: "50px", width: "100vw", height: "300px", display: "flex", justifyContent: "space-evenly", alignItems: "center", flexDirection: "column" }}>
           <div style={{ fontFamily: "Manrope", fontSize: "40px", color: "#ECECEC" }}><h1 className={styles.tagline} style={{ fontSize:"80px", fontWeight: "bold" }}> grants tailored just for you! 💰</h1>
   
           </div>

@@ -36,7 +36,8 @@ function Bod() {
 
       
       <div className={styles.marqueecont1} style={{ display: "none", justifyContent: "space-evenly", width: "100vw", height: "280px", backgroundColor: "", alignItems: "center" }}>
-        <Grant/>
+        <Grant symbol="sol" title="solana foundation grants"
+         about=" The Solana Foundation Grants Program provides milestone-based funding to support initiatives aimed at decentralizing, growing, and securing the Solana network."/>
         </div>
     </>  
     )}

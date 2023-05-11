@@ -106,6 +106,10 @@ width: 1204px;
   .tagline{
       font-size: 55px  !important;
   }
+
+  .greeting{
+    font-size: 54px !important;
+  }
   
 }
 
@@ -160,9 +164,17 @@ width: 1204px;
     margin-left: 243px !important;
   }
 
+  .greeting{
+    font-size: 49px !important;
+  }
+
 }
 
 @media screen and (max-width: 700px) {
+  
+  .greeting{
+    font-size: 44px !important;
+  }
 
   .tagline{
       font-size: 35px  !important;
@@ -219,7 +231,9 @@ width: 1204px;
 }
 @media screen and (max-width: 500px) {
 
-
+  .greeting{
+    font-size: 39px !important;
+  }
   .grantc3{
     font-size: 8px;
   }
@@ -260,6 +274,10 @@ width: 1204px;
 }
 
 @media screen and (max-width: 350px) {
+
+  .greeting{
+    font-size: 34px !important;
+  }
 
   .tagline{
       font-size: 20px  !important;

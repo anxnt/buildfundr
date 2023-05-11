@@ -210,7 +210,7 @@ width: 1204px;
 @media screen and (max-width: 500px) {
 
   .grantsgrid{
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(1, 1fr) !important;
   }
 
   .grantc3{

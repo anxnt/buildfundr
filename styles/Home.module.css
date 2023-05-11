@@ -93,6 +93,11 @@ width: 1204px;
     font-size: 12px !important;
     margin-left: 280px !important;
   }
+
+
+  .greeting{
+    font-size: 59px !important;
+  }
   
 }
 
@@ -207,7 +212,7 @@ width: 1204px;
   
 }
 @media screen and (max-width: 550px){
-  
+
   .grantsgrid{
     grid-template-columns: repeat(1, 1fr) !important;
     }

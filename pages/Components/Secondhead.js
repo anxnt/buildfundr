@@ -4,7 +4,7 @@ function Secondhead(props) {
   return (
     <div className={styles.theheader} style={{display:"flex", justifyContent:"space-between", alignItems:"center", height:"150px", width:"100vw",  fontFamily:"Manrope", fontWeight:"light"}}>
     <div style={{height:"50px", width:"400px", display:"flex", justifyContent:"center", alignItems:"center", color:"#DEDEDE", fontSize:"25px", }}>
-    <a href="/"><h1> buildfundr</h1></a>
+    <a href="/"><h1 className={styles.logo} > buildfundr</h1></a>
 
     </div>
 

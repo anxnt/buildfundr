@@ -33,6 +33,11 @@ function Bod() {
       about=" The Solana Foundation Grants Program provides milestone-based funding to support initiatives aimed at decentralizing, growing, and securing the Solana network."/>
         
       </div>
+
+      
+      <div className={styles.marqueecont1} style={{ display: "none", justifyContent: "space-evenly", width: "100vw", height: "280px", backgroundColor: "", alignItems: "center" }}>
+        <Grant/>
+        </div>
     </>  
     )}
 
@@ -56,6 +61,12 @@ function Bod() {
         <Grant/>
         <Grant/>    
         </div>
+
+        <div className={styles.marqueecont1} style={{ display: "none", justifyContent: "space-evenly", width: "100vw", height: "280px", backgroundColor: "", alignItems: "center" }}>
+        <Grant/>
+        </div>
+
+
 
       </>  
       )

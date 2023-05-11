@@ -27,7 +27,7 @@ This grants would be perfect for you.
     </h1>
     </div>
     <div style={{width:"100vw", height:"auto", display:"grid", justifyContent:"center", alignItems:"center", backgroundColor:"", position:"absolute", padding:"50px"}}>
-    <div style={{ display:"grid", gridTemplateColumns: "repeat(2, 1fr)", gridGap: "50px",}}>
+    <div className={styles.grantsgrid} style={{ display:"grid", gridTemplateColumns: "repeat(2, 1fr)", gridGap: "50px",}}>
 
     <Grant symbol="eth" title="ethereum ecosystem support program (small grants)" link="https://esp.ethereum.foundation/applicants/small-grants/apply"
      about=" We award dozens of grants each quarter, across a variety of categories. We support open source projects that strengthen Ethereum's foundations, with a particular focus on builder tools, infrastructure, research, community resources and other public goods. Funding is generally directed toward supporting builders rather than end users."/>

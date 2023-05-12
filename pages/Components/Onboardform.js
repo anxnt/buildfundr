@@ -45,7 +45,7 @@ function Onboardform() {
   return (
 <div style={{height:"75vh", width:"100vw", display:"flex", justifyContent:"space-evenly", alignItems:"center", overflowY:"hidden"}}>
 
-<div style={{padding:"50px", width:"60vw", backgroundColor:"white", height:"550px", borderRadius:"20px", overflowY:"scroll", overflowX:"hidden" }}> 
+<div style={{padding:"50px", width:"800px", backgroundColor:"white", height:"550px", borderRadius:"20px", overflowY:"scroll", overflowX:"hidden" }}> 
 <form method="POST">
 
       <label style={{margin:"50px"}}>
@@ -114,8 +114,8 @@ function Onboardform() {
 
 
 
-<div style={{width:"30vw", backgroundColor:"white", height:"550px", borderRadius:"20px"}}>
-<Image src="/Images/piccolo-grillmaster.gif" alt="My Image" width={465} height={550} style={{ borderRadius: "20px", objectFit: "cover", objectPosition: "center" }} />
+<div style={{width:"200px", backgroundColor:"white", height:"550px", borderRadius:"20px"}}>
+<Image src="/Images/piccolo-grillmaster.gif" alt="My Image" width={200} height={550} style={{ borderRadius: "20px", objectFit: "cover", objectPosition: "center" }} />
 </div>
 
 </div>

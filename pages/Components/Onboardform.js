@@ -114,8 +114,8 @@ function Onboardform() {
 
 
 
-<div style={{width:"200px", backgroundColor:"white", height:"550px", borderRadius:"20px"}}>
-<Image src="/Images/piccolo-grillmaster.gif" alt="My Image" width={200} height={550} style={{ borderRadius: "20px", objectFit: "cover", objectPosition: "center" }} />
+<div style={{width:"500px", backgroundColor:"white", height:"550px", borderRadius:"20px"}}>
+<Image src="/Images/piccolo-grillmaster.gif" alt="My Image" width={500} height={550} style={{ borderRadius: "20px", objectFit: "cover", objectPosition: "center" }} />
 </div>
 
 </div>

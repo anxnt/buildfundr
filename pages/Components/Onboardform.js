@@ -43,16 +43,16 @@ function Onboardform() {
   };  
 
   return (
-<div style={{height:"75vh", width:"100vw", display:"flex", justifyContent:"space-evenly", alignItems:"center", overflowY:"hidden"}}>
+<div className={styles.bodyg} style={{height:"610px", width:"100vw", display:"flex", justifyContent:"space-evenly", alignItems:"center", overflowY:"hidden"}}>
 
-<div style={{padding:"50px", width:"800px", backgroundColor:"white", height:"550px", borderRadius:"20px", overflowY:"scroll", overflowX:"hidden" }}> 
+<div className={styles.onboarding1} style={{padding:"50px", width:"800px", backgroundColor:"white", height:"550px", borderRadius:"20px", overflowY:"scroll", overflowX:"hidden" }}> 
 <form method="POST">
 
-      <label style={{margin:"50px"}}>
+      <label className={styles.titleg} style={{margin:"50px"}}>
        Who are you?
        <br></br>
 
-        <select name="question1" required value={formData.question1}  onChange={(e) => setFormData({ ...formData, question1: e.target.value })} >
+        <select className={styles.answerg} name="question1" required value={formData.question1}  onChange={(e) => setFormData({ ...formData, question1: e.target.value })} >
           <option value="">--Select answer--</option>
           <option value="a">full stack dev </option>
           <option value="b"> frontend dev </option>
@@ -61,10 +61,10 @@ function Onboardform() {
         </select>
       </label>
       <br></br><br></br><br></br><br></br>
-      <label style={{margin:"50px"}}>
+      <label className={styles.titleg} style={{margin:"50px"}}>
         which language do you prefer?
         <br></br>
-        <select name="question2" required value={formData.question2} onChange={(e) => setFormData({ ...formData, question2: e.target.value })}>
+        <select className={styles.answerg} name="question2" required value={formData.question2} onChange={(e) => setFormData({ ...formData, question2: e.target.value })}>
           <option value="">--Select answer--</option>
           <option value="a"> javascript </option>
           <option value="b"> python</option>
@@ -73,10 +73,10 @@ function Onboardform() {
         </select>
       </label>
       <br></br><br></br><br></br><br></br>
-      <label  style={{margin:"50px"}} >
+      <label className={styles.titleg} style={{margin:"50px"}} >
         what's your experience?
         <br></br>
-        <select name="question3" required value={formData.question3} onChange={(e) => setFormData({ ...formData, question3: e.target.value })}>
+        <select className={styles.answerg} name="question3" required value={formData.question3} onChange={(e) => setFormData({ ...formData, question3: e.target.value })}>
           <option value="">--Select answer--</option>
           <option value="a"> less than 1 year </option>
           <option value="b"> 1-2 year </option>
@@ -85,9 +85,9 @@ function Onboardform() {
         </select>
       </label>
       <br></br><br></br><br></br><br></br>
-      <label  style={{margin:"50px" }}>
+      <label className={styles.titleg} style={{margin:"50px" }}>
        which chain are you building on?
-        <select name="question4" required value={formData.question4} onChange={(e) => setFormData({ ...formData, question4: e.target.value })}>
+        <select className={styles.answerg} name="question4" required value={formData.question4} onChange={(e) => setFormData({ ...formData, question4: e.target.value })}>
           <option value="">--Select answer--</option>
           <option value="a"> solona </option>
           <option value="b"> ethereum </option>
@@ -96,9 +96,9 @@ function Onboardform() {
         </select>
       </label>
       <br></br><br></br><br></br><br></br>
-      <label  style={{margin:"50px"}}>
+      <label className={styles.titleg} style={{margin:"50px"}}>
         do you have a team?
-        <select name="question5" required value={formData.question5} onChange={(e) => setFormData({ ...formData, question5: e.target.value })}>
+        <select className={styles.answerg} name="question5" required value={formData.question5} onChange={(e) => setFormData({ ...formData, question5: e.target.value })}>
           <option value="">--Select answer--</option>
           <option value="a">no </option>
           <option value="b">2 builders</option>
@@ -107,15 +107,15 @@ function Onboardform() {
         </select>
       </label>
       <br></br><br></br><br></br><br></br>
-      <button style={{height:"60px", width:"180px", marginLeft:"100px", backgroundColor:"black", color:"white", fontFamily:"Manrope", fontWeight:"bold", fontSize:"25px", borderRadius:"10px"}} type="submit" onClick={handleSubmit}>Submit</button>
+      <button className={styles.buttong} style={{height:"60px", width:"180px", marginLeft:"100px", backgroundColor:"black", color:"white", fontFamily:"Manrope", fontWeight:"bold", fontSize:"25px", borderRadius:"10px"}} type="submit" onClick={handleSubmit}>Submit</button>
     </form>      
 </div>
 
 
 
 
-<div style={{width:"500px", backgroundColor:"white", height:"550px", borderRadius:"20px"}}>
-<Image src="/Images/piccolo-grillmaster.gif" alt="My Image" width={500} height={550} style={{ borderRadius: "20px", objectFit: "cover", objectPosition: "center" }} />
+<div className={styles.onboarding2} style={{width:"450px", backgroundColor:"white", height:"550px", borderRadius:"20px", display:"flex", alignItems: 'center', justifyContent: 'center'}}>
+<img src="/Images/piccolo-grillmaster.gif" alt="My Image" style={{ width:"100%", height: "100%", borderRadius: "20px", objectFit: 'cover',  }} />
 </div>
 
 </div>

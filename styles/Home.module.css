@@ -41,6 +41,18 @@ color: #D9D9D9;
 width: 1204px;
 }
 
+@media screen and (max-width: 1300px) {
+  .onboarding1{
+    width: 727px !important;
+    height: 500px !important;
+  }
+
+  .onboarding2{
+    width: 409px !important;
+    height: 500px !important;
+  }
+}
+
 
 @media screen and (max-width: 1200px) {
 
@@ -101,6 +113,23 @@ width: 1204px;
   
 }
 
+@media screen and (max-width: 1150px) {
+  .onboarding1{
+    width: 581px !important;
+    height: 400px !important;
+  }
+
+  .onboarding2{
+    width: 327px !important;
+    height: 400px !important;
+  }
+  .bodyg{
+    height: 450px !important;
+  }
+}
+
+
+
 @media screen and (max-width: 1000px) {
 
   .tagline{
@@ -113,7 +142,23 @@ width: 1204px;
   
 }
 
+@media screen and (max-width: 950px) {
+  .onboarding1{
+    width: 509px !important;
+    height: 350px !important;
+  }
+
+  .onboarding2{
+    width: 286px !important;
+    height: 350px !important;
+  }
+}
+
 @media screen and (max-width: 850px) {
+
+  .bodyg{
+    height: 360px !important;
+  }
 
   .tagline{
       font-size: 45px  !important;
@@ -168,12 +213,44 @@ width: 1204px;
     font-size: 43px !important;
   }
 
+  .onboarding1{
+    width: 436px !important;
+    height: 300px !important;
+  }
+
+  .onboarding2{
+    width: 245px !important;
+    height: 300px !important;
+  }
+
+
 }
 
 @media screen and (max-width: 700px) {
-  
+
+  .bodyg{
+    height: 675px !important;
+  }
+  .titleg{
+   font-size: 30px;
+   margin: 0px !important;
+  }
+
+  .answerg{
+    font-size: 20px;
+    margin-left: 0px;
+  }
+  .onboarding2{
+   display: none !important;
+  }
+
+  .onboarding1{
+    font-size: 30px !important;
+    height: 600px !important;
+  }
+
   .greeting{
-    font-size: 29px !important;
+    font-size: 29++px !important;
   }
 
   .tagline{
@@ -231,6 +308,20 @@ width: 1204px;
 }
 @media screen and (max-width: 500px) {
 
+  .onboarding1{
+    width: 333px !important;
+  }
+
+  .titleg{
+    font-size: 20px !important;
+    margin: 0px !important;
+  }
+
+  .answerg{
+    margin-left: 0px !important;
+    width: 200px !important;
+  }
+
   .greeting{
     font-size: 24px !important;
   }
@@ -274,6 +365,29 @@ width: 1204px;
 }
 
 @media screen and (max-width: 350px) {
+  
+  
+  .titleg{
+    font-size: 20px !important;
+    margin: 0px !important;
+   }
+ 
+   .answerg{
+     font-size: 15px !important;
+     margin-left: 0px !important;
+     width: 185px !important;
+   }
+
+   .onboarding1{
+    height: 561px !important;
+    width: 290px !important;
+   }
+
+   .buttong{
+    height: 50px !important;
+    width: 150px !important;
+    margin-left: 10px !important;
+   }
 
   .greeting{
     font-size: 18px !important;

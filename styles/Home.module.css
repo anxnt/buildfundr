@@ -41,6 +41,11 @@ color: #D9D9D9;
 width: 1204px;
 }
 
+.answerg{
+  margin-left: 0px;
+}
+
+
 @media screen and (max-width: 1300px) {
   .onboarding1{
     width: 727px !important;
@@ -50,6 +55,10 @@ width: 1204px;
   .onboarding2{
     width: 409px !important;
     height: 500px !important;
+  }
+  .titleg{
+    font-size: 35px !important;
+    margin-left: 0px !important;
   }
 }
 
@@ -126,6 +135,10 @@ width: 1204px;
   .bodyg{
     height: 450px !important;
   }
+  .titleg{
+    margin-left: 0px !important;
+    font-size: 30px !important;
+  }
 }
 
 
@@ -152,10 +165,15 @@ width: 1204px;
     width: 286px !important;
     height: 350px !important;
   }
+  .titleg{
+    font-size: 35px !important;
+  }
 }
 
 @media screen and (max-width: 850px) {
-
+  .titleg{
+    font-size: 25px !important;
+  }
   .bodyg{
     height: 360px !important;
   }
@@ -227,7 +245,10 @@ width: 1204px;
 }
 
 @media screen and (max-width: 700px) {
-
+  
+  .buttong{
+    margin-left: 0px !important;
+  }
   .bodyg{
     height: 675px !important;
   }
@@ -238,7 +259,6 @@ width: 1204px;
 
   .answerg{
     font-size: 20px;
-    margin-left: 0px;
   }
   .onboarding2{
    display: none !important;
@@ -250,7 +270,7 @@ width: 1204px;
   }
 
   .greeting{
-    font-size: 29++px !important;
+    font-size: 29px !important;
   }
 
   .tagline{
@@ -318,7 +338,6 @@ width: 1204px;
   }
 
   .answerg{
-    margin-left: 0px !important;
     width: 200px !important;
   }
 
@@ -374,7 +393,6 @@ width: 1204px;
  
    .answerg{
      font-size: 15px !important;
-     margin-left: 0px !important;
      width: 185px !important;
    }
 
@@ -385,8 +403,7 @@ width: 1204px;
 
    .buttong{
     height: 50px !important;
-    width: 150px !important;
-    margin-left: 10px !important;
+    width: 135px !important;
    }
 
   .greeting{

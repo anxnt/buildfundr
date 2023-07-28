@@ -19,7 +19,7 @@ function onboarding() {
   )
 }
 
-{/* export async function getServerSideProps(context) {
+ export async function getServerSideProps(context) {
   const session = await getSession(context)
 
   if (!session) {
@@ -35,7 +35,6 @@ function onboarding() {
     props: { session }
   }
 }
-*/}
 
 
 export default onboarding

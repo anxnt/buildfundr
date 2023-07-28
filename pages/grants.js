@@ -20,7 +20,7 @@ if (!session) {
   return (
     <>
     <Secondhead name={session.user.name}/>
-    <div style={{width:"100vw", height:"auto",  display:"flex", justifyContent:"center", alignItems:"center"}}>
+    <div style={{width:"100vw", height:"100px",  display:"flex", justifyContent:"center", alignItems:"center"}}>
     <h1 className={styles.greeting}> 
         👋 Hello, {session.user.name}! <br></br>
 This grants would be perfect for you.
@@ -55,7 +55,7 @@ This grants would be perfect for you.
   )
 }
 
-export async function getServerSideProps(context) {
+{/* export async function getServerSideProps(context) {
   const session = await getSession(context)
 
   if (!session) {
@@ -71,5 +71,6 @@ export async function getServerSideProps(context) {
     props: { session }
   }
 }
+*/}
 
 export default grants

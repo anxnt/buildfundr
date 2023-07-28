@@ -20,7 +20,7 @@ if (!session) {
   return (
     <>
     <Secondhead name={session.user.name}/>
-    <div style={{width:"100vw", height:"150px",  display:"flex", justifyContent:"center", alignItems:"center"}}>
+    <div style={{width:"100vw", height:"150px",  display:"flex", justifyContent:"center", alignItems:"center", overflow:"hidden"}}>
     <h1 className={styles.greeting}> 
         👋 Hello, {session.user.name}! <br></br>
 This grants would be perfect for you.
